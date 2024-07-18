@@ -8,12 +8,12 @@ Firstly, the game will be initialized and a 10*10 grid will be generated.
 Both players and the computer cannot see each other's ships directly. They need to try on each blocks and see whether there is a ship in this block or not.
 
 *what the initializing looks like.
-![8M~3R6HE{~KL8~LV%LY _5](https://github.com/user-attachments/assets/db3e6efb-8d47-4f57-9fbb-5179112dd9d3)
+
 
 As the picture above, players and computer cannot see other's ships locations. They need to try attack blocks and find out whether there are ships or not.
 
 *testing pictures
-![Y8IGUJLF%I6 )4@$X@H(8~L](https://github.com/user-attachments/assets/1f1deca0-4cfe-492a-940d-2febbcb30458)
+
 
 The picture above is a testing process I made. I generate ships and let the AI I made to try to hit them. At first, when the AI hits nothing, it will randomly
 hit the blocks that it does not hit before. Once it hits a ship, it will hit the possible blocks that the rest of the ship might be. If it hits a new ship during this procedure, it will remeber that and after it hits the recent ships all, it will hit that ship and continuing the process, untill all ships are cleared.

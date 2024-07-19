@@ -1,0 +1,16 @@
+package game;
+
+public class Destroyer extends Ship{
+private int being_hit;
+public Destroyer(String d,int a) {
+	super(d,a);
+}
+public int hitd() {
+	being_hit++;
+	return being_hit;
+}
+//true sunk
+public boolean remain_des() {
+	return being_hit==4;
+}
+}
